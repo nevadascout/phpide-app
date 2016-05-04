@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height:100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+#iconmenu {
+    display: block;
+    height: 24px;
+    background: #eee;
+    width: 100%;
+    line-height: 24px;
+}
+
+#iconmenu ul {
+    list-style: none;
+}
+#iconmenu ul li {
+    display: inline-block;
+    margin-right: -5px;
+}
+
+#iconmenu a.disabled {
+    opacity: 0.3;
+}
+
+#iconmenu a.disabled:hover {
+    background: none;
+    cursor: default;
+}
+
+#iconmenu .separator {
+    border-left: 1px solid #ddd;
+    margin-left: 4px;
+}
+
+
+.tabbar ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.tabbar ul li {
+    display: block;
+    float: left;
+    /*margin-right: -2px;*/
+    text-decoration: none;
+    padding: 3px 6px;
+    width: 170px;
+    cursor: default;
+    margin-right: 2px;
+}
+
+.tabbar ul li.active {
+    font-weight: bold;
+}
+
+
+#sidebar {
+    width: 250px;
+    background: #ccc;
+    float: left;
+}
+
+#container {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    align-content: stretch;
+    height:100%;
+}
+
+.pane {
+    display: inline-block;
+    /*border-right: 2px solid #ddd;*/
+    height: 100%;
+    flex-grow: 1;
+    background: #eee;
+}
+
+.document {
+    height: 100%;
+    overflow: auto;
+}

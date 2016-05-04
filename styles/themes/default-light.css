@@ -1,0 +1,53 @@
+/*
+ * These are the styles for the "Default (light)"
+ * theme, created by the Eternium team.
+ */
+
+.tabbar {
+    border-bottom: 3px solid #5b6f81;
+    font-size: 0.9em;
+}
+
+.tabbar ul {
+    margin-bottom: -4px;
+}
+
+.tabbar ul li {
+    color: #000;
+    background: #d1d7db;
+}
+
+.tabbar ul li:hover {
+    background: #bcc1c5;
+}
+
+.tabbar ul li:hover .close-icon {
+    visibility: visible;
+}
+
+.tabbar ul li.active {
+    color: #fff;
+    background: #5b6f81;
+}
+
+.tabbar ul.pinned {
+    margin-right: 10px;
+}
+
+.tabbar .icon {
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+
+.tabbar .icon:hover {
+    opacity: 1;
+}
+
+.tabbar .close-icon {
+    visibility: hidden;
+}
+
+.tabbar .tabicons {
+    padding-left: 3px;
+    float: right;
+}
